@@ -1,0 +1,113 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and container */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f5f5f5; /* Background color for the whole page */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #2C3E50; /* Dark blue color for header */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Hero Section */
+.hero {
+    background: #E74C3C; /* Deep red background for hero section */
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background: #fff;
+    color: #E74C3C;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    padding: 2rem 0;
+    background: #DCE6E6; /* Light teal background for about section */
+    text-align: center;
+}
+
+.about p {
+    margin-top: 1rem;
+}
+
+/* Shop Section */
+.shop {
+    padding: 2rem 0;
+    background: #E8E8E8; /* Light gray background for shop section */
+    text-align: center;
+}
+
+.shop .product {
+    margin: 1rem 0;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem 0;
+    background: #DCE6E6; /* Light teal background for contact section */
+    text-align: center;
+}
+
+.contact a {
+    color: #E74C3C; /* Color for contact email link */
+    text-decoration: none;
+}
+
+/* Footer */
+footer
